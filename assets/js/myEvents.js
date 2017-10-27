@@ -4,7 +4,7 @@ var act = document.querySelector('#act')
 var request = new XMLHttpRequest()
 var response
 var fragment = document.createDocumentFragment()
-var githubURL = 'https://api.github.com/users/leaofelipe/events?per_page=1'
+var githubURL = 'https://api.github.com/users/andreabadesso/events?per_page=1'
 
 function addData (data) {
   var date = new Date(data.created_at)

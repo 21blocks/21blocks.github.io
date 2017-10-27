@@ -20,7 +20,7 @@ h1, h2 {
   /* border: 1px solid red; */
   width: 500px;
   height: 300px;
-  color: #3C3C3C;
+  color: #dc2f4f;
 }
 
 .main-box {
@@ -38,7 +38,7 @@ a {
 
 .main-box a:hover, .github-box a:hover {
   text-decoration: underline;
-  color: #51FA98;
+  color: #dc2f4f;
 }
 
 h1 {
@@ -46,7 +46,8 @@ h1 {
 }
 
 h1 span {
-  background-color: #51FA98;
+  background-color: #dc2f4f;
+  color: #191c36;
 }
 
 ul {
@@ -65,18 +66,24 @@ ul li:first-child: {
 }
 
 ul li a {
-  color: #51FA98;
+  color: #dc2f4f;
   text-decoration: none;
 }
 
 .main-text {
   font-size: 36px;
   line-height: 38px;
+  color: #3C3C3C;
+}
+
+.sub {
+  font-size: 24px;
+  line-height: 24px;
 }
 
 .hashtag-box {
   width: 100%;
-  background: #3C3C3C;
+  background: #191c36;
 }
 
 .github-box {
@@ -136,6 +143,10 @@ ul li a {
 
 .box-links ul li a.github {
   background: url(../img/github.svg) no-repeat center center;
+}
+
+.box-links ul li a.email {
+  background: url(../img/email.svg) no-repeat center center;
 }
 
 .box-links ul li a.linkedin {
